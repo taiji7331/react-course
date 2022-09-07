@@ -1,24 +1,12 @@
-import logo from './logo.svg';
+import Header from './components/Header';
+import Logo from './components/Logo';
 import './App.css';
-
-
-function Heading() {
-  return(
-    <h1 className="App-header">Practice building a component complete</h1>
-  );
-}
-
-function Logo() {
-  return(
-    <img src={logo} alt="logo" className="App-logo"></img>
-  );
-}
 
 function App() {
   return ( 
     <div className="App"> 
       <Logo />
-      <Heading /> 
+      <Header /> 
       <p>This is the starting code for "Your first component" ungraded lab </p>
     </div> 
   );
