@@ -1,6 +1,9 @@
-function Header() {
+function Header(props) {
   return(
-    <h1 className="App-header">Practice building a component complete</h1>
+    <div>
+      <h1 className="App-header">Practice building a component complete</h1>
+      <p>{props.text}</p>
+    </div>
   );
 }
 

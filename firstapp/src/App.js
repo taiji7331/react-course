@@ -6,7 +6,7 @@ function App() {
   return ( 
     <div className="App"> 
       <Logo />
-      <Header /> 
+      <Header text="Props sample text"/> 
       <p>This is the starting code for "Your first component" ungraded lab </p>
     </div> 
   );
